@@ -2,88 +2,81 @@
 <html>
 <head>
 <title>Moon</title>
-<link rel=" icon" type="image/x-icon" href="E:\htlm-css-code\image\moon_logo.jpg">
-<style>
-    table,th, td {
-      border: 1px solid black;
-      border-collapse: collapse;
- 
-    }
-    th{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        padding-left: 20px;
-    }
-    td{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        text-align: center;
-    
-    }
-    .size{
-        color: white;
-        background-color:hsl(0, 0%, 50%);;
-    }
-    .features{
-        padding-left: 20px;
-    }
-    div{
-        width: 1100px;
-        margin:auto;
-        background-color: beige;
-    }
-</style>
+<link rel=" icon" href="E:\htlm-css-code\image\moon_logo.jpg">
+<link rel="stylesheet" href="style.css">
 </head>
+
 <body style="font-family: Arial, Helvetica, sans-serif;">
+<header>The Moon</header>
+<nav class="navbar">
+    <a href="#home">TRANG CHỦ</a>
+    <a href="#new">NEW</a>
+    <a href="#product">SẢN PHẨM</a>
+    <a href="#bestseller">BEST SELLER</a>
+    <a href="#blog">BLOG</a>
+    <a href="#like"><img src="" alt="heart_icon"></a>
+    <a href="#cart"><img src="" alt="cart_icon"></a>
+    <a href="#login">ĐĂNG NHẬP</a>
+</nav>
+<section>
+    <img src="E:\htlm-css-code\image\jeans1.jpg" alt="image of product">
+</section>
+<article>
+    
+</article>
 <div>
-<h2>Hướng dẫn chọn size</h2>
-<table style="width:40%;text-align: left">
-    <caption style="font-size:160%;">Bảng size</caption>
-    <tr>
-        <th>Sản phẩm</th> 
-        <td colspan="3">Wide leg jean - 02935</td>
-    </tr>
-    <tr>
-        <th>Mã</th>  
-        <td colspan="3">99539</td>
-    </tr>
-    <tr>
-        <th>Size</th>
-        <td class="size">S</td>
-        <td class="size">M</td>  
-        <td class="size">L</td>
-    </tr>
-    <tr>
-        <td class="features">Dài</td>
-        <td>101</td>
-        <td>102</td>
-        <td>103</td>
-    </tr>
-    <tr>
-        <td class="features">Mông</td>
-        <td>90</td>
-        <td>94</td>
-        <td>98</td>
-    </tr>
-    <tr>
-        <td class="features">Eo</td>
-        <td>64</td>
-        <td>68</td>
-        <td>72</td>
-    </tr>
-    <tr>
-        <td class="features">Ống quần</td>
-        <td>26</td>
-        <td>27</td>
-        <td>28</td>
-    </tr>
-    <tr>
-        <th>Chất liệu</th>  
-        <td colspan="3">Jean</th>
-    </tr>
-</table>
+    <b>Hướng dẫn chọn kích thước</b>
+    <div class="Sizetable">
+        <table style="width:40%;text-align: left">
+            <caption style="font-size:160%;">Bảng size</caption>
+            <tr>
+                <th>Sản phẩm</th> 
+                <td colspan="3">Wide leg jean - 02935</td>
+            </tr>
+            <tr>
+                <th>Mã</th>  
+                <td colspan="3">99539</td>
+            </tr>
+            <tr>
+                <th>Size</th>
+                <td class="size">S</td>
+                <td class="size">M</td>  
+                <td class="size">L</td>
+            </tr>
+            <tr>
+                <td class="features">Dài</td>
+                <td>101</td>
+                <td>102</td>
+                <td>103</td>
+            </tr>
+            <tr>
+                <td class="features">Mông</td>
+                <td>90</td>
+                <td>94</td>
+                <td>98</td>
+            </tr>
+            <tr>
+                <td class="features">Eo</td>
+                <td>64</td>
+                <td>68</td>
+                <td>72</td>
+            </tr>
+            <tr>
+                <td class="features">Ống quần</td>
+                <td>26</td>
+                <td>27</td>
+                <td>28</td>
+            </tr>
+            <tr>
+                <th>Chất liệu</th>  
+                <td colspan="3">Jean</th>
+            </tr>
+        </table>
+    </div>
 </div>
+
 <br>
+
 <div>
     <b>CHI TIẾT SẢN PHẨM</b>
     <div class="detailproduct">
@@ -95,12 +88,68 @@
         <p>Gửi từ</p>
     </div>
 </div>
+
+<br>
+
 <div>
     <b>THÔNG TIN BỔ SUNG</b>
+    <ul>
+        <li>Lưu ý về màu & size</li>
+        <li>Hướng dẫn bảo quản</li>
+    </ul> 
 </div>
+
 <br>
+
 <div>
-    <b style="text-align: center; width: 100%;">SẢN PHẨM TƯƠNG TỰ</b>
+    <b> VẬN CHUYỂN VÀ TRẢ HÀNG</b>
+    <ul>
+        <li>Chính sách mua hàng</li>
+        <li>Thắc mắc và khiểu nại</li>
+        <li>Bảo hành và đổi trả</li>
+    </ul>
 </div>
+
+<br>
+
+<p style="text-align:center;font-size:130%;">SẢN PHẨM TƯƠNG TỰ</p>
+<div>
+    <div class="similarproduct">    
+            
+            <div>
+                <img src="E:\htlm-css-code\image\jeans1.jpg"
+                style="width:250px;height:400px;">
+                <p class="type">Quần Jeans</p>
+                <p class="name">Jeans1</p>
+                <p class="price">$20.5</p>
+            </div>  
+
+            <div>
+                <img src="E:\htlm-css-code\image\jeans2.jpg"
+                style="width:250px;height:400px;">
+                <p class="type">Quần Jeans</p>
+                <p class="name">Jeans2</p>
+                <p class="price">$20.5</p>
+            </div> 
+
+            <div>
+                <img src="E:\htlm-css-code\image\jeans3.jpg"
+                style="width:250px;height:400px;">
+                <p class="type">Quần Jeans</p>
+                <p class="name">Jeans3</p>
+                <p class="price">$20.5</p>
+            </div> 
+
+            <div>
+                <img src="E:\htlm-css-code\image\jeans4.jpg"
+                style="width:250px;height:400px;">
+                <p class="type">Quần Jeans</p>
+                <p class="name">Jeans4</p>
+                <p class="price">$20.5</p>
+            </div> 
+
+    </div>
+</div>
+<p style="text-align: center; font-size:70%;">XEM THÊM</p>
 </body>
 </html>

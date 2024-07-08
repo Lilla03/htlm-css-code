@@ -1,0 +1,98 @@
+
+header{
+    padding: 10px;
+    font-family:fantasy;
+    text-align: center;
+    font-size: 35px;
+    color: black;
+}
+nav{
+    background-color: black;
+    width: 100%;
+    min-width: 100%;
+    overflow: auto;
+}
+section{
+    padding: 10px;
+    display: flexbox;
+    width:350px;height:500px;
+}
+article{
+
+}
+nav a{
+    float: left;
+    display: block;
+    color: white;
+    background-color: black;
+    padding:15px;
+    padding: 15px,20px;
+    text-decoration: none;
+}
+
+table,th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+
+}
+th{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+td{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.size{
+    color: white;
+    background-color:hsl(0, 0%, 50%);;
+}
+.features{
+    padding-left: 20px;
+}
+div{
+    width: 1100px;
+    margin:auto;
+}
+div.detailproduct{
+    background-color: beige;
+    padding-left: 30px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+    font-size:smaller;
+    color: gray;
+}
+div.Sizetable{
+    table-layout: fixed;
+    background-color: beige;
+    padding-left: 30px;
+    padding-top: 30px; 
+    padding-bottom: 30px;
+}
+div.similarproduct{
+    text-align: center;
+    width:100%;
+    overflow:auto;
+    background-color: white;
+    
+}
+div.similarproduct div{
+    width:25%; 
+    float:left
+}
+.type{
+    font-size: smaller;
+    color:gray;
+    margin:0;
+}
+.name{
+    font-size: smaller;
+    margin:0;
+}
+.price{
+    font-size: smaller;
+    margin:0;
+}
