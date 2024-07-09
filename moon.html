@@ -2,30 +2,65 @@
 <html>
 <head>
 <title>Moon</title>
+<meta charset="utf-8">
 <link rel=" icon" href="E:\htlm-css-code\image\moon_logo.jpg">
 <link rel="stylesheet" href="style.css">
 </head>
 
-<body style="font-family: Arial, Helvetica, sans-serif;">
-<header>The Moon</header>
-<nav class="navbar">
-    <a href="#home">TRANG CHỦ</a>
-    <a href="#new">NEW</a>
-    <a href="#product">SẢN PHẨM</a>
-    <a href="#bestseller">BEST SELLER</a>
-    <a href="#blog">BLOG</a>
-    <a href="#like"><img src="" alt="heart_icon"></a>
-    <a href="#cart"><img src="" alt="cart_icon"></a>
-    <a href="#login">ĐĂNG NHẬP</a>
-</nav>
-<section>
-    <img src="E:\htlm-css-code\image\jeans1.jpg" alt="image of product">
-</section>
-<article>
-    
-</article>
+<body style="font-family: Arial, Helvetica, sans-serif;width:100%;">
+<div class="header-container">
+    <div class="custom-header center">
+        <p>The Moon</p>
+    </div>
+    <div class="custom-header search">
+        <!-- <button class="custom-button" type="button"><img src="E:\htlm-css-code\image\search-button.png" alt="search button"></button> -->
+        <input type="search" placeholder="Tìm sản phẩm...">
+    </div>
+</div> 
+   
+
+<div class="nav">
+    <ul class="nav-list">
+        <li class="nav-item">TRANG CHỦ</li>
+        <li class="nav-item">NEW</li>
+        <li class="nav-item">SẢN PHẨM</li>
+        <li class="nav-item">BEST SELLER</li>
+        <li class="nav-item">BLOG</li>
+    </ul>
+    <ul class="nav-list">
+        <li class="nav-item"><img src="" alt="heart_icon"></li>
+        <li class="nav-item"><img src="" alt="cart_icon"></li>
+        <li class="nav-item">ĐĂNG NHẬP</li>
+    </ul>
+</div>
+<div class="custom-section">
+    <div class="custom-section layout">
+        <div class=" layout layout1">
+            <img src="E:\htlm-css-code\image\model1.jpg" alt="font" class="resize-image">
+            <img src="E:\htlm-css-code\image\back_jeans1.jpg" alt="back" class="resize-image">
+        </div>
+        <div class="layout layout2">
+            <img src="E:\htlm-css-code\image\jeans1.jpg" alt="main" style="width: 200px,300px;">
+        </div>
+    </div>
+    <div class="custom-section information">
+        <div class="information name">
+            <b>Quần jeans ống đứng THE C.I.U - Straight Jeans - 062404</pb>
+        </div>
+        <div class="information price_product">
+            <p>20.5$</p>
+        </div>
+        <div class="bonus">
+            <p>Quần jeans ống đứng THE C.I.U - Straight Jeans - 062404 là sản phẩm quần jeans nữ đẹp và chất lượng, phù hợp với nhiều phong cách thời trang khác nhau. Thiết kế: Quần có kiểu dáng straight fit, ôm vừa tạo cảm giác thoải mái và dễ chịu khi mặc.</p>
+        </div>
+        <div class="option">
+
+        </div>
+    </div>
+</div>
+
 <div>
-    <b>Hướng dẫn chọn kích thước</b>
+    <b>HƯỚNG DẪN CHỌN KÍCH THƯỚC</b>
     <div class="Sizetable">
         <table style="width:40%;text-align: left">
             <caption style="font-size:160%;">Bảng size</caption>
@@ -75,8 +110,7 @@
     </div>
 </div>
 
-<br>
-
+<!-- Chi tiết sản phẩm -->
 <div>
     <b>CHI TIẾT SẢN PHẨM</b>
     <div class="detailproduct">
@@ -90,7 +124,7 @@
 </div>
 
 <br>
-
+<!-- Thông tin bổ sung -->
 <div>
     <b>THÔNG TIN BỔ SUNG</b>
     <ul>
@@ -100,7 +134,7 @@
 </div>
 
 <br>
-
+<!-- vận chuyển và trả hàng -->
 <div>
     <b> VẬN CHUYỂN VÀ TRẢ HÀNG</b>
     <ul>
@@ -111,7 +145,7 @@
 </div>
 
 <br>
-
+<!-- sản phẩm tương tự -->
 <p style="text-align:center;font-size:130%;">SẢN PHẨM TƯƠNG TỰ</p>
 <div>
     <div class="similarproduct">    
@@ -144,12 +178,14 @@
                 <img src="E:\htlm-css-code\image\jeans4.jpg"
                 style="width:250px;height:400px;">
                 <p class="type">Quần Jeans</p>
-                <p class="name">Jeans4</p>
+                <p class="mini-name">Jeans4</p>
                 <p class="price">$20.5</p>
             </div> 
 
     </div>
 </div>
-<p style="text-align: center; font-size:70%;">XEM THÊM</p>
+<div id="more">
+    <p >XEM THÊM</p>
+</div>
 </body>
 </html>

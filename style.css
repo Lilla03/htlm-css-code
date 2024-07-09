@@ -1,23 +1,40 @@
 
-header{
-    padding: 10px;
+.header-container{
+    padding: 0px, 16px;
+    display: flex;
+}
+.custom-header{
+    padding: 0px, 16px;
+}
+.center{
     font-family:fantasy;
-    text-align: center;
     font-size: 35px;
     color: black;
+    flex: 2;
 }
-nav{
+.search{
+    border: none;
+    flex: 1;
+}
+.custom-button{
+    border: none ;
+}
+.nav{
     background-color: black;
+    min-height: 40px;
     width: 100%;
-    min-width: 100%;
-    overflow: auto;
+    display: flex;
+    justify-content: space-between;
 }
-section{
-    padding: 10px;
-    display: flexbox;
-    width:350px;height:500px;
+.nav-list{
+    padding-left: 0;
+    margin: auto 16px;
 }
-article{
+.nav-item{
+    color: white;
+    list-style: none;
+    display: inline-block;
+    margin: 0px 8px;
 
 }
 nav a{
@@ -30,6 +47,50 @@ nav a{
     text-decoration: none;
 }
 
+.custom-section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    
+}
+.layout{
+    display: flex;
+    flex:6;
+    flex-direction: row;
+    margin-left: 100px;
+    
+}
+.layout1{
+    flex:1;
+    flex-direction: column;
+    flex-basis: 20%;
+    justify-content: space-around;
+}
+.resize-image{
+    width: 140px;
+    height: 200px;
+}
+.layout2{
+    flex:4;
+
+}
+.information{
+    flex-direction: column;
+    flex:4
+}
+.name{
+    font-size:150%;
+}
+.price_product{
+    font-weight: lighter;
+    font-size:150%;
+}
+.bonus{
+    font-size: smaller;
+    line-height: 20px;
+    color:gray;
+    font-weight: lighter;
+}
 table,th, td {
     border: 1px solid black;
     border-collapse: collapse;
@@ -54,10 +115,9 @@ td{
     padding-left: 20px;
 }
 div{
-    width: 1100px;
     margin:auto;
 }
-div.detailproduct{
+.detailproduct{
     background-color: beige;
     padding-left: 30px;
     padding-top: 30px; 
@@ -65,21 +125,21 @@ div.detailproduct{
     font-size:smaller;
     color: gray;
 }
-div.Sizetable{
-    table-layout: fixed;
+.Sizetable{
     background-color: beige;
     padding-left: 30px;
     padding-top: 30px; 
     padding-bottom: 30px;
 }
-div.similarproduct{
+.similarproduct{
     text-align: center;
     width:100%;
     overflow:auto;
     background-color: white;
+    display: flex;
     
 }
-div.similarproduct div{
+.similarproduct div{
     width:25%; 
     float:left
 }
@@ -88,11 +148,22 @@ div.similarproduct div{
     color:gray;
     margin:0;
 }
-.name{
+.mini-name{
     font-size: smaller;
     margin:0;
 }
 .price{
     font-size: smaller;
     margin:0;
+}
+#more{
+    text-align: center; 
+    font-size:70%; 
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: fit-content;
+    background-color:white;
 }
