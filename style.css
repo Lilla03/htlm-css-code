@@ -57,7 +57,7 @@ nav a{
     display: flex;
     flex:6;
     flex-direction: row;
-    margin-left: 100px;
+
     
 }
 .layout1{
@@ -72,24 +72,47 @@ nav a{
 }
 .layout2{
     flex:4;
-
 }
 .information{
     flex-direction: column;
     flex:4
 }
 .name{
-    font-size:150%;
+    font-size:160%;
+    line-height: 40px;
 }
 .price_product{
     font-weight: lighter;
     font-size:150%;
 }
-.bonus{
+.addition{
     font-size: smaller;
     line-height: 20px;
     color:gray;
     font-weight: lighter;
+}
+.option{
+    justify-content: space-around;
+}
+.color{
+    display: flex;
+    flex-direction: row;
+}
+.size{
+    display: flex;
+    flex-direction: row;
+}
+.form_label{
+    font-size: 110%;
+    font-weight: lighter;
+}
+.form_button{
+    border: 1px #0000000f;
+    background-color: white;
+    text-align: center;
+    display: inline-block;
+    border-radius: 0;
+    padding: 10px, 30px;
 }
 table,th, td {
     border: 1px solid black;
@@ -107,29 +130,32 @@ td{
     text-align: center;
 
 }
-.size{
+.table_size{
     color: white;
     background-color:hsl(0, 0%, 50%);;
 }
 .features{
-    padding-left: 20px;
+    font-weight: lighter;
 }
 div{
+    font-weight: 100;
     margin:auto;
 }
 .detailproduct{
     background-color: beige;
-    padding-left: 30px;
-    padding-top: 30px; 
-    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-top: 10px; 
+    padding-bottom: 10px;
     font-size:smaller;
     color: gray;
 }
-.Sizetable{
+.size-table{
     background-color: beige;
     padding-left: 30px;
     padding-top: 30px; 
     padding-bottom: 30px;
+    display: flex;
+    justify-content: center;
 }
 .similarproduct{
     text-align: center;
@@ -153,8 +179,10 @@ div{
     margin:0;
 }
 .price{
-    font-size: smaller;
-    margin:0;
+    font-size: 16px;
+}
+div .price{
+    font-size: 10px;
 }
 #more{
     text-align: center; 
@@ -166,4 +194,7 @@ div{
     padding-bottom: 5px;
     width: fit-content;
     background-color:white;
+}
+div img .similarproduct{
+    padding:200px;
 }
