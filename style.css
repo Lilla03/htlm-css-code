@@ -1,3 +1,18 @@
-.l{
-    color: #000;
+.container{
+  display: grid;
+  justify-items: center;
 }
+.text {
+  color: gray;
+  font-size: 10px;
+}
+.input input{
+  border: 1px, solid,  rgb(128,128,128,0.5);
+}
+.submit-autologin{
+  max-width: fit-content;
+  display: flex;
+  align-items: center;
+}
+
+
