@@ -25,7 +25,11 @@ body{
 }
 .h-left{
     position: absolute;
+    display: flex;
     right: 0;
+    align-items: center;
+    margin-bottom: 5px;
+    border-bottom: 1px;
 
 }
 .search-form{
@@ -46,14 +50,22 @@ body{
     padding-right: 70px;
 }
 .nav-bar_list{
-    color: white;
+    color: #c96;
     display: flex;
     margin: 0;
     line-height: 1.5;
-
+}
+.nav-bar_list-left{
+    display: flex;
+    align-items: center;
+    font-size: 95%;
+}
+.login-item{
+    padding-left: 20px;
+    padding-right:20px ;
 }
 .nav-bar_list-item{
-    font-size: 90%;
+    font-size: 95%;
     font-weight: 550;
     letter-spacing: 1px;
     list-style: none;
@@ -61,6 +73,13 @@ body{
     display: inline-block;
     padding: 15px;
     align-items: center;
+}
+.quality{
+    width: 1px;
+    height: 1px;
+    border-radius: 50%;
+    background-color: #c96;
+    color: white;
 }
 .slide{
     width: 100%;
@@ -96,7 +115,24 @@ body{
     background-color: gainsboro;
     margin: 20px;
     cursor: pointer;
+    display: flex;
+    flex-direction: column;
 
+}
+.product-image{
+    background-color: rgba(78, 79, 80, 0.564);
+    height: 70%;
+
+}
+.product-detail{
+    height: 30%;
+    background-color: white;
+}
+.product-type{
+    font-size: 0.8rem;
+    color: gray;
+    padding: 16px;
+    text-align: center;
 }
 
 .policy-container{

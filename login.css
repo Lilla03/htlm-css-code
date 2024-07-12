@@ -10,15 +10,19 @@ max-width: 400px;
 .login-navbar{
   display: flex;
   font-size: 1.3rem;
-  justify-content: space-between;
 }
-
-.login-navbar-item{
-  width: fit-content;
+.login-navbar-item-box{
   width: 50%;
+  border: 1px, solid,  rgb(128,128,128,0.3);
+  padding: 10px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.login-navbar-item{
   color: #c96;
-  margin:10px;
-  text-align: center;
+  /* text-align: center; */
+
 }
 .get-input{
   padding-top: 10px;
