@@ -88,7 +88,6 @@ body{
 }
 .lazy{
     display: block;
-    /* margin: 30px; */
 }
 .lazy_catalog-box{
     padding: 20px;
@@ -104,11 +103,26 @@ body{
     justify-content:space-evenly ;
 }
 .lazy_catalog-item1{
-    width:28%;
+    position: relative;
+    width:25%;
     height: 350px;
-    background-color: gainsboro;
+    /* background-color: gainsboro; */
     cursor: pointer;
 }
+.lazy_catalog-item1:hover{
+    background-color: rgba(220, 220, 220, 0.8);
+}
+img{
+    position: absolute;
+    width: 100%;
+    height: 350px;
+    z-index: -1;
+    object-fit:cover;
+}
+
+/* .button-buy-now{
+
+} */
 .lazy_catalog-item2{
     width:22%;
     height: 500px;
