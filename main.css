@@ -1,3 +1,5 @@
+
+
 body{
     margin: 0;
     font-family: "Mulish",sans-serif;;
@@ -8,6 +10,7 @@ body{
     display: flex;
     flex-direction: column;
 }
+
 .h-container{
     position: relative;
     width: auto;
@@ -100,32 +103,72 @@ body{
 }
 .lazy_catalog-box-item{
     display: flex;
+    flex-direction: row;
     justify-content:space-evenly ;
 }
+/* .button-pre{
+    position: relative;
+    border:1px, solid, #c96;
+    height: fit-content;
+} */
 .lazy_catalog-item1{
     position: relative;
     width:25%;
     height: 350px;
-    /* background-color: gainsboro; */
     cursor: pointer;
+    display: flex;
+    align-items: center;
 }
 .lazy_catalog-item1:hover{
-    background-color: rgba(220, 220, 220, 0.8);
+    background-color: rgba(130, 130, 130, 0.3);
 }
-img{
+.img-item1{
     position: absolute;
     width: 100%;
     height: 350px;
     z-index: -1;
     object-fit:cover;
 }
+.banner-title-button{
+    position: absolute;
+    height:30%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-title-mini-box{
+    font-size: 140%;
+    color: white;
 
-/* .button-buy-now{
+}
 
-} */
+.button-buy-now{
+    border: 1px, white;
+    width:  fit-content;
+    color: white;
+    background-color: transparent;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    padding-top: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 16px;
+    justify-content: center;
+}
+.button-buy-now:hover{
+
+    justify-content: center;
+    border: none;
+    height: fit-content;
+    color: black;
+    background-color: white;
+}
 .lazy_catalog-item2{
     width:22%;
-    height: 500px;
+    height:550px;
     background-color: gainsboro;
     margin: 20px;
     cursor: pointer;
@@ -133,14 +176,41 @@ img{
     flex-direction: column;
 
 }
-.product-image{
-    background-color: rgba(78, 79, 80, 0.564);
-    height: 70%;
+.lazy_catalog-item2:hover{
+    /* position: relative;
+    width:22%;
+    height: 500px;
+    background-color: gainsboro;
+    margin: 20px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column; */
 
+}
+/* .img-container{
+    height: 70%;
+}
+.img-item2{
+    max-width: 100%;
+    max-height:fit-content;
+    object-position: 50%, 0%;
+} */
+
+.img-container {
+    height: 100%;
+    display: grid;
+  }
+  
+.img-item2 {
+    max-width: 100%; 
+    height: 100%; 
+    object-fit: cover;
+    object-position: 50% 100%;
 }
 .product-detail{
     height: 30%;
     background-color: white;
+    text-align: center;
 }
 .product-type{
     font-size: 0.8rem;
@@ -148,6 +218,26 @@ img{
     padding: 16px;
     text-align: center;
 }
+.product-name{
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+.product-name:hover{
+    font-size: 80%;
+    margin-bottom: 10px;
+    color: #c96;
+}
+.product-price{
+    font-size: 80%;
+    margin-bottom: 10px;
+}
+/* .dif-color{
+    background-color: #c96;
+    width: 20px;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+} */
 
 .policy-container{
     min-width: 100%;
